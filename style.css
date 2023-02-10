@@ -177,12 +177,24 @@ h3 {
 .skills,
 .summary,
 .activity,
+.about-me,
 .timeline,
 .education,
-.portfolio {
+.portfolio{
 	padding: 1rem 0;
-	border-bottom: 1px solid;
+	border-bottom: 2px solid;
 }
+
+
+.break{
+	padding-top: 10rem;
+}
+
+.line{
+	border-top: 2px solid;
+}
+
+
 codersrank-skills-chart {
 	--legend-text-color: yellow;
 	--legend-font-size: 15px;
@@ -311,3 +323,49 @@ codersrank-activity {
   p{
 	text-align: center;
   }
+
+  .skills-div {
+	display: flex;
+	background-color: white;
+	margin-bottom: 15px;
+	padding-left: 4.5rem;
+
+  }
+
+  .skills {
+	text-align: right;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;
+	
+  }
+
+  
+
+  .html {width: 90%; background-color: #E34C26;}
+  .css {width: 90%; background-color: #563D7C;}
+  .python {width: 80%; background-color: #3572A5;}
+  .js {width: 70%; background-color: #F1E05A;}
+  .reactjs {width: 70%; background-color: gray;}
+  .cpp {width: 40%; background-color: pink;}
+  .swift {width: 50%; background-color: orange;}
+  .java {width: 30%; background-color: blue;}
+
+  #typewrite {
+    color: white;
+    font-weight: bold;
+}
+
+#cursor {
+    color: red;
+    animation: blink 1s linear infinite;
+}
+
+    @keyframes blink {
+        0% {
+            opacity: 100%;
+        }
+        50% {
+            opacity: 0%;
+        }
+    }
