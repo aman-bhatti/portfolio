@@ -369,3 +369,29 @@ codersrank-activity {
             opacity: 0%;
         }
     }
+
+
+.pfp {
+	height: 250px;
+	width: 200px;
+	border-radius: 100%;
+	position: relative;
+	object-fit: cover;
+	padding-bottom: 1rem;
+	
+}
+
+
+.about-p {
+	margin: 0 0 30px 0;
+	line-height: 30px;
+	font-size:x-large;
+	height: 200px;
+	width: 900px;
+	padding-top: 2rem;
+	padding-right: 7rem;
+	float: right;
+	display: block;
+	text-align: left;
+}
+
