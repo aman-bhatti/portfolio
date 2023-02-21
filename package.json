@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@codersrank/activity": "^0.9.14",
     "@codersrank/skills-chart": "^0.9.21"
   }
 }
