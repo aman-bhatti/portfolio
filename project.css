@@ -38,3 +38,15 @@
 p{
     color: white;
 }
+
+.portfolio {
+  border: 3px solid #fff;
+  padding: 20px;
+}
+
+.project-item {
+  width: 50%;
+  float: left;
+ 
+  
+}
