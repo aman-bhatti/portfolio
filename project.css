@@ -1,52 +1,37 @@
-
-
-  .project-pic {
-    width: 100%;
-    display: block;
-    text-align: inherit;
-}
-.project-pic{
-    height: 200px;
-    width: 200px;
-}
-
-  .project-pic {
-    color: inherit;
-    border: 0;
-    cursor: pointer;
-    margin: 0;
-    display: inline-flex;
-    outline: 0;
-    padding: 0;
-    position: relative;
-    align-items: center;
-    user-select: none;
-    border-radius: 0;
-    vertical-align: middle;
-    -moz-appearance: none;
-    justify-content: center;
-    text-decoration: none;
-    background-color: transparent;
-    -webkit-appearance: none;
-    -webkit-tap-highlight-color: transparent;
-}
-
-.button-root {
-    background-color: black;
-}
-
-p{
-    color: white;
-}
-
-.portfolio {
-  border: 3px solid #fff;
-  padding: 20px;
-}
-
-.project-item {
-  width: 50%;
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  height: 100%;
+  width: 40%;
   float: left;
- 
+  padding: 0 10px;
+  border-radius: 5px 5px 0 0;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
   
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+.row {margin: 0 -5px;}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h4{
+  text-align: center;
 }
