@@ -39,3 +39,9 @@
     background-color: black;
     font-family: monospace;
   }
+
+  .vidID {
+    object-fit: initial;
+    width: 400px;
+    height: 300px;
+}
