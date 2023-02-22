@@ -7,9 +7,10 @@
   float: left;
   padding: 0 10px;
   border-radius: 5px 5px 5px 5px;
-  background-color: red;
+  background-color: white;
   margin: 5px;
 }
+
 
 
 
@@ -43,4 +44,16 @@ img {
 
 h4{
   text-align: center;
+  color: black;
+}
+
+p{
+  font-style: italic;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+.subject{
+  font-size: small;
+  font-style: normal;
 }
