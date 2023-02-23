@@ -377,8 +377,22 @@ codersrank-activity {
 	position: relative;
 	object-fit: cover;
 	padding-bottom: 1rem;
+}
+
+.pic-div{
+	display: inline;
+	
+	
 	
 }
+
+.about-div{
+	float: right;
+	width: 80%;
+	display: inline;
+	margin-top: 2rem;
+}
+
 
 
 .about-p {
@@ -387,10 +401,19 @@ codersrank-activity {
 	font-size:x-large;
 	height: 200px;
 	width: 900px;
-	padding-top: 2rem;
+	
 	padding-right: 7rem;
-	float: right;
+	
 	display: inline;
 	text-align: left;
+	
+
 }
+
+
+.container::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
 
