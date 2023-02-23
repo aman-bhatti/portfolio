@@ -1,11 +1,4 @@
-.buttonVid {
-    font-size: 10px;
-    background-color: red;
-    color: white;
-    font-weight: bold;
-    border-radius: 5px 5px 5px 5px;
-    margin-top: 5px;
-}
+
 
 @import "../../_globalColor";
 
