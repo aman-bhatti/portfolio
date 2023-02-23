@@ -56,4 +56,11 @@ p{
 .subject{
   font-size: small;
   font-style: normal;
+  color: black;
+}
+
+codersrank-summary {
+  --header-bg-color: #fff;
+  --name-font-size: 20px;
+  --header-text-color: black;
 }
