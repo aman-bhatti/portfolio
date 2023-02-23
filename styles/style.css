@@ -351,7 +351,7 @@ codersrank-activity {
   .java {width: 30%; background-color: blue;}
 
   #typewrite {
-    color: var(--secondary);
+    color: --var(--secondary);
     font-weight: bold;
 }
 
