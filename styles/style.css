@@ -390,7 +390,7 @@ codersrank-activity {
 	padding-top: 2rem;
 	padding-right: 7rem;
 	float: right;
-	display: block;
+	display: inline;
 	text-align: left;
 }
 
