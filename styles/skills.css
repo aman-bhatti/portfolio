@@ -1,6 +1,6 @@
 .collapsible {
-    background-color: black;
-    color: white;
+    background-color: --var(--secondary);
+    color: --var(--secondary);
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -13,8 +13,8 @@
   }
   
   .active, .collapsible:hover {
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
   }
   
   .collapsible:after {
@@ -36,9 +36,25 @@
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
-    background-color: black;
+    background-color: --var(--primary);
     font-family: monospace;
   }
+
+  .skills-div {
+    display: flex;
+    background-color: white;
+    margin-bottom: 15px;
+    padding-left: 4.5rem;
+  
+    }
+  
+    .skills {
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: --var(--secondary)
+    
+    }
 
   .vidID {
     object-fit: initial;
