@@ -195,7 +195,7 @@ h3 {
 
 
 codersrank-skills-chart {
-	--legend-text-color: yellow;
+	--legend-text-color: --var(--primary);
 	--legend-font-size: 15px;
 	--preloader-color: red;
 	--svg-height: 25rem;
